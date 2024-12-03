@@ -44,7 +44,7 @@ const WorkEx = () => {
                 <ul className='mt-4 list-disc list-inside'>
                     {workExperience.information.map((info) => {
                         return (
-                            <li>
+                            <li className='py-2'>
                                 {info}
                             </li>
                         )

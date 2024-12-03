@@ -5,8 +5,9 @@ export const workEx = [
         duration: "Jul 2023 - Sept 2023",
         organization: "UNDP Research Consultancy",
         information: [
-            "content line 1",
-            "content line 2",
+            "Interned under Prof. Srinivas Goli for a UNDP consultancy project.",
+            "Contributed to building a National Multidimensional Poverty Index from a gender perspective for India.",
+            "Analyzed NFHS datasets to identify relevant indicators, conducted an extensive literature review, and contributed to the development of detailed reports for the consultancy, outlining recommendations for incorporating gender-sensitive dimensions into the Index."
         ],
         orgLogo: undp,
     },
@@ -15,8 +16,9 @@ export const workEx = [
         duration: "Apr 2023 - Jul 2023",
         organization: "University of Western Australia",
         information: [
-            "content line 1",
-            "content line 2",
+            "Interned under Prof. Anu Rammohan.",
+            "Cleaned The CMIE-CPHS datasets, conducted empirical analysis for tracing gendered linkages between labour market outcomes and marriage market outcomes in India. ",
+            "Conducted an extensive literature review on theoretical foundations of marriage market timing."
         ],
         orgLogo: uWesternAus,
     }
