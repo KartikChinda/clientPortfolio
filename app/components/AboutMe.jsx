@@ -6,7 +6,6 @@ const AboutMe = () => {
   return (
     <div className="pb-20 w-[90%]">
       <div
-        id="container"
         className=" p-4 flex flex-col lg:flex-row justify-center items-stretch"
       >
         <div className="px-8 mt-16 w-full lg:w-[40%] flex justify-center items-start lg:items-end flex-col pr-8 h-full">
@@ -14,7 +13,7 @@ const AboutMe = () => {
             A glimpse of me
           </p>
           <p className="text-6xl md:text-8xl mt-1 font-bold  text-textBrown font-heading-barlow uppercase">
-            About me.
+            About me
           </p>
         </div>
         <div className="w-full lg:w-[60%] px-8 lg:px-20">
