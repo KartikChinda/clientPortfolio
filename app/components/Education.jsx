@@ -26,7 +26,7 @@ const Education = () => {
                 icon={
                     <div className='flex justify-center items-center w-full h-full '>
                         <img
-                            src={""}
+                            src={edu.logo.src}
                             className='object-contain'
                         />
                     </div>
