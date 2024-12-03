@@ -8,11 +8,11 @@ const AboutMe = () => {
       <div
         className=" p-4 flex flex-col lg:flex-row justify-center items-stretch"
       >
-        <div className="px-8 mt-16 w-full lg:w-[40%] flex justify-center items-start lg:items-end flex-col pr-8 h-full">
+        <div className="px-8 mt-16 w-full lg:w-[45%] flex justify-center items-start lg:items-end flex-col pr-8 h-full">
           <p className="text-xl  mt-5 font-extralight font-subtext-mont text-black ">
             A glimpse of me
           </p>
-          <p className="text-6xl md:text-8xl mt-1 font-bold  text-textBrown font-heading-barlow uppercase">
+          <p className="text-6xl lg:text-7xl xl:text-8xl mt-1 font-bold  text-textBrown font-heading-barlow uppercase text-right w-full">
             About me
           </p>
         </div>

@@ -7,5 +7,6 @@ export const skills = [
     "SPSS",
     "Spectrum",
     "SAS",
-    "Proficiency in longitudinal and causal Analysis"
+    "Longitudinal Analysis",
+    "Causal Analysis"
   ];

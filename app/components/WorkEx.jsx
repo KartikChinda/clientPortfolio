@@ -9,7 +9,7 @@ const WorkEx = () => {
   return (
     <div className='p-8'>
         <div className='mt-4 mb-20 w-full text-right p-4'>
-          <p className="text-6xl md:text-8xl mt-1 font-bold  text-textBrown font-heading-barlow uppercase">
+          <p className="text-6xl md:text-8xl xl:p-8 mt-1 font-bold  text-textBrown font-heading-barlow uppercase">
             Work Experience
           </p>
         </div>
