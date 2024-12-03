@@ -1,21 +1,24 @@
+import { undp, uWesternAus} from "../assets/index.js";
 export const workEx = [
     {
         title: "Research Assistant",
-        duration: "July 2023 - September 2023",
+        duration: "Jul 2023 - Sept 2023",
         organization: "UNDP Research Consultancy",
         information: [
-            
+            "content line 1",
+            "content line 2",
         ],
-        orgLogo: "",
+        orgLogo: undp,
     },
     {
         title: "Research Assistant",
-        duration: "",
+        duration: "Apr 2023 - Jul 2023",
         organization: "University of Western Australia",
         information: [
-
+            "content line 1",
+            "content line 2",
         ],
-        orgLogo: "April 2023 - July 2023",
+        orgLogo: uWesternAus,
     }
 ]
 

@@ -19,6 +19,7 @@ module.exports = {
       colors: {
         bgPeach: "#FAEFDD",
         textBrown: "#292420",
+        textPeach: "#FCFAF6",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

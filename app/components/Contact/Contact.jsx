@@ -9,7 +9,6 @@ const Contact = () => {
 
   useEffect(() => {
     if (containerRef.current) {
-      console.log("We're here");
       const simulation = new WebGLFluidEnhanced(containerRef.current);
       simulation.setConfig({
         densityDissipation: 0.8,
