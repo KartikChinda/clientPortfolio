@@ -27,31 +27,46 @@ const Publications = () => {
             </div>
             {publications.map((pub, index) => {
                 return (
-                    <Link target='__blank' href={pub.link} key={index} className=" p-8 lg:col-span-1 lg:row-span-1 h-[200px] lg:h-auto bento-cell relative group hover:text-[15px] duration-300"
+                    <div key={index} className=" p-8 lg:col-span-1 lg:row-span-1 h-[200px] lg:h-auto bento-cell relative group  flex flex-col"
                     style={{background: pub.color}}
-                    
                     >
-                    {pub.title}
+                    {
+                      index === 0 ? 
+                      <span className=' font-heading-barlow text-2xl uppercase italic font-bold mb-2 text-center'>
+                      Selected works in progress
+                  </span>
+                      :
+                      pub.title
+                    }
+                     {index !== 0 && <button 
+                className='py-2 px-1 border-2 border-textBrown rounded-xl w-[150px] text-textBrown font-subtext-mont hover:scale-105 duration-300 mt-4' 
+                
+            >
+                View Abstract
+            </button>}
                     <div className='absolute right-4 bottom-4 group-hover:scale-[1.5] duration-300'>
-                    <ArrowSquareOut size={32} />
+                   
                     </div>
-                  </Link>
+                  </div>
                 )
             })}
           
                 <div className=" p-4 lg:col-span-3 lg:row-span-1 h-[600px] lg:h-auto bento-cell bg-[#FFFBEB] flex-col w-full">
                     <p className=' font-heading-barlow text-xl font-bold mb-2'>
-                        Selected works in progress
+                        My other publications
                     </p>
-                <ul className='list-disc list-inside p-4'>
-              {workingPublications.map((pub) => {
+                <div>
+              {publications.map((pub) => {
                 return (
-                    <li className=''>
-                        {pub}
-                    </li>
+                    <div className='my-1 flex '>
+                      <span className="mr-2">•</span> 
+                        <Link href={pub.link} >
+                        {pub.title}
+                        </Link>
+                    </div>
                 )
               })}
-              </ul>
+              </div>
             </div>
           </div>
 
