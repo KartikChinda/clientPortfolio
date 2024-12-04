@@ -21,7 +21,7 @@ const Publications = () => {
                   {mainPublication.summary}
                 </div>
               </Link>
-              <div className='absolute right-4 bottom-4 group-hover:scale-[1.5] duration-150'>
+              <div className='absolute right-4 bottom-4 group-hover:scale-[1.5] duration-300'>
                     <ArrowSquareOut size={32} />
                     </div>
             </div>
@@ -29,6 +29,7 @@ const Publications = () => {
                 return (
                     <Link target='__blank' href={pub.link} key={index} className=" p-8 lg:col-span-1 lg:row-span-1 h-[200px] lg:h-auto bento-cell relative group hover:text-[15px] duration-300"
                     style={{background: pub.color}}
+                    
                     >
                     {pub.title}
                     <div className='absolute right-4 bottom-4 group-hover:scale-[1.5] duration-300'>
