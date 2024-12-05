@@ -2,13 +2,11 @@ import React from "react";
 import { skills } from "../constants/skills";
 
 const Skills = () => {
-
   return (
     <>
-      <section  className=" p-8">
+      <section className=" p-8">
         <div className="mt-10 lg:mt-20 flex flex-col justify-center items-center w-full gap-2">
-          
-        <p className="text-6xl md:text-8xl mt-1 font-bold  text-textBrown font-heading-barlow uppercase">
+          <p className="text-6xl md:text-8xl mt-1 font-bold  text-textBrown font-heading-barlow uppercase">
             My Skills
           </p>
         </div>
@@ -27,7 +25,7 @@ const Skills = () => {
                 <div className=" flex justify-center items-center flex-col text-xl group-hover:text-[23px] duration-300 italic  font-light text-center font-subtext-mont">
                   {skill}
                 </div>
-               </div>
+              </div>
             );
           })}
         </div>

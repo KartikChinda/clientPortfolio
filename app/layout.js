@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import SmoothScrolling from "./libs/SmoothScrolling";
 import "./globals.css";
 
 
@@ -10,7 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-bgPeach">{children}</body>
+      <body className="bg-bgPeach">
+      <SmoothScrolling>{children}</SmoothScrolling>
+        </body>
     </html>
   );
 }

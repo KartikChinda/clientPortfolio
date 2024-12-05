@@ -1,9 +1,13 @@
 "use client";
-import React, { useState } from 'react';
-import { mainPublication, publications, workingPublications } from '../../constants/publications';
-import { ArrowSquareOut } from '@phosphor-icons/react';
-import Link from 'next/link';
-import Modal from '../Modal';
+import React, { useState } from "react";
+import {
+  mainPublication,
+  publications,
+  workingPublications,
+} from "../../constants/publications";
+import { ArrowSquareOut } from "@phosphor-icons/react";
+import Link from "next/link";
+import Modal from "../Modal";
 
 const Publications = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -28,9 +32,14 @@ const Publications = () => {
       </div>
       <div className="p-8 lg:p-20 grid gap-4 lg:grid-cols-3 lg:grid-rows-3 lg:h-[900px] w-full h-auto">
         <div className="p-4 lg:col-span-1 lg:row-span-2 h-[400px] lg:h-auto bento-cell bg-[#FFFBEB] relative group">
-          <Link href={mainPublication.link} className="flex flex-col p-4 hover:text-[15.5px] duration-300">
+          <Link
+            href={mainPublication.link}
+            className="flex flex-col p-4 hover:text-[15.5px] duration-300"
+          >
             {mainPublication.title}
-            <div className="mt-4 text-sm font-light italic">{mainPublication.summary}</div>
+            <div className="mt-4 text-sm font-light italic">
+              {mainPublication.summary}
+            </div>
           </Link>
           <div className="absolute right-4 bottom-4 group-hover:scale-[1.5] duration-300">
             <ArrowSquareOut size={32} />
@@ -60,7 +69,9 @@ const Publications = () => {
           </div>
         ))}
         <div className="p-4 lg:col-span-3 lg:row-span-1 h-[600px] lg:h-auto bento-cell bg-[#FFFBEB] flex-col w-full">
-          <p className="font-heading-barlow text-xl font-bold mb-2">My other publications</p>
+          <p className="font-heading-barlow text-xl font-bold mb-2">
+            My other publications
+          </p>
           <div>
             {publications.map((pub) => (
               <div key={pub.title} className="my-1 flex">

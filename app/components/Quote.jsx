@@ -1,39 +1,36 @@
-"use client"; 
+"use client";
 import { Quotes } from "@phosphor-icons/react";
 import React, { useEffect, useRef, useState } from "react";
 
 const Quote = () => {
-  const containerRef = useRef(null); 
-  const [opacity, setOpacity] = useState(0); 
-  const [translateY, setTranslateY] = useState(50); 
+  const containerRef = useRef(null);
+  const [opacity, setOpacity] = useState(0);
+  const [translateY, setTranslateY] = useState(50);
 
   useEffect(() => {
-    
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          
-          if (entry.intersectionRatio >= 0.2 && entry.intersectionRatio <= 0.7) {
-            const ratio = Math.min(
-              (entry.intersectionRatio - 0.2) / 0.5, 
-              1
-            ); 
-            setOpacity(ratio); 
-            setTranslateY(50 - ratio * 50); 
+          if (
+            entry.intersectionRatio >= 0.2 &&
+            entry.intersectionRatio <= 0.7
+          ) {
+            const ratio = Math.min((entry.intersectionRatio - 0.2) / 0.5, 1);
+            setOpacity(ratio);
+            setTranslateY(50 - ratio * 50);
           } else if (entry.intersectionRatio > 0.7) {
-            setOpacity(1); 
-            setTranslateY(0); 
+            setOpacity(1);
+            setTranslateY(0);
           } else {
-            setOpacity(0); 
-            setTranslateY(50); 
+            setOpacity(0);
+            setTranslateY(50);
           }
         });
       },
       {
-        threshold: [0, 0.2, 0.3, 0.5, 0.7, 1], 
+        threshold: [0, 0.2, 0.3, 0.5, 0.7, 1],
       }
     );
-
 
     if (containerRef.current) {
       observer.observe(containerRef.current);
@@ -46,7 +43,7 @@ const Quote = () => {
   }, []);
 
   return (
-    <div 
+    <div
       className="h-[100vh] flex justify-center items-center"
       ref={containerRef} // Attach the ref to the entire container
       style={{
@@ -60,7 +57,8 @@ const Quote = () => {
           <Quotes size={40} color="orange" />
         </div>
         <div className="font-subtext-mont italic text-xl text-textBrown">
-          Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind.
+          Lock up your libraries if you like; but there is no gate, no lock, no
+          bolt that you can set upon the freedom of my mind.
         </div>
         <div className="w-full text-right mt-4 font-subtext-lora font-semibold text-textBrown">
           - Virginia Woolf

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Modal = ({ abstract, onClose }) => {
   return (
@@ -10,8 +10,12 @@ const Modal = ({ abstract, onClose }) => {
         >
           &times;
         </button>
-        <h2 className="text-2xl font-bold mb-4 font-heading-barlow">Abstract</h2>
-        <p className="text-base text-textBrown font-subtext-mont">{abstract || 'Abstract is currently not working.'}</p>
+        <h2 className="text-2xl font-bold mb-4 font-heading-barlow">
+          Abstract
+        </h2>
+        <p className="text-base text-textBrown font-subtext-mont">
+          {abstract || "Abstract is currently not working."}
+        </p>
       </div>
     </div>
   );
