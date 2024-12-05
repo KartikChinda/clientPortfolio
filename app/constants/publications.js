@@ -39,7 +39,24 @@ export const publications = [
 ]
 
 export const workingPublications = [
-    "Goli, S., Singh, S., Balla, S. Glorifying Virchow - Current Debate on Neoliberal Policies and Health Inequalities in India",
-    "Singh, S., Goli, S., Rammohan, A., Ram, H. A Suitable Boy - Tracing Gendered Linkages between Employment Status and Marriage Market Outcomes ",
-    "Singh, S., Goli, S. Explaining the paradox of falling economic inequality with rising share of the rich in India",
+    {
+        title: "",
+        abstract: "",
+        color: "#FCF9BE",
+    },
+    {
+        title: "Goli, S., Singh, S., Balla, S. Glorifying Virchow - Current Debate on Neoliberal Policies and Health Inequalities in India",
+        abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget pellentesque neque. Cras tincidunt nulla nisl, et commodo dui porttitor quis. Nulla tempor, nisl a laoreet molestie, ex quam mollis enim, sed pulvinar enim felis nec ipsum. Nulla at dignissim felis, in lobortis magna. Suspendisse potenti. Cras tristique dapibus augue. Phasellus ac eros non lorem dignissim porta.\n \n In vulputate accumsan feugiat. Nunc hendrerit eget lacus sed tempus. Praesent viverra tincidunt convallis. Nulla metus dui, varius in facilisis ac, pellentesque et nunc. Cras nibh leo, pretium nec ultrices vitae, eleifend sed velit. Phasellus iaculis ipsum ac porta varius. Vivamus quis venenatis.",
+        color: "#F9D689",
+    },
+    {
+        title: "Singh, S., Goli, S., Rammohan, A., Ram, H. A Suitable Boy - Tracing Gendered Linkages between Employment Status and Marriage Market Outcomes",
+        abstract: "",
+        color: "#F9D689",
+    },
+    {
+        title: "Singh, S., Goli, S. Explaining the paradox of falling economic inequality with rising share of the rich in India",
+        abstract: "",
+        color: "#FCF9BE",
+    },
 ]
