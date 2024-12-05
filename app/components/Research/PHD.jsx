@@ -13,8 +13,14 @@ const PHD = () => {
           Research
         </p>
       </div>
-      <div className="w-[90%] mt-4 mb-6 text-xl font-subtext-mont">
-        add text about research here.
+      <div className="w-[90%] mt-20 mb-6 text-xl font-subtext-mont italic">
+        My research interests revolve around how family and households, as the
+        demographic units of social and economic decision making, influence the
+        levels of inequality and continued prevalence of gendered hierarchies in
+        the socio-economic realm. While my current projects explore these
+        linkages through empirical analyses in isolation, I intend to study the
+        intersectional axes of inequality and gendered hierarchies at the
+        household level. Below I describe each project I have undertaken.
       </div>
       <div className="mt-10 lg:mt-20 flex flex-col justify-center items-center w-full gap-2">
         <p className="text-4xl md:text-6xl mt-1 font-bold  text-textBrown font-heading-barlow uppercase p-8 text-center">

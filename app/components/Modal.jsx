@@ -13,7 +13,7 @@ const Modal = ({ abstract, onClose }) => {
         <h2 className="text-2xl font-bold mb-4 font-heading-barlow">
           Abstract
         </h2>
-        <p className="text-base text-textBrown font-subtext-mont">
+        <p className="text-base text-textBrown font-subtext-mont mt-10 text-justify px-2">
           {abstract || "Abstract is currently not working."}
         </p>
       </div>

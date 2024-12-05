@@ -11,21 +11,22 @@ const Navbar = () => {
 
   return (
     <nav className="w-full bg-transparent py-4">
-      <div className="max-w-7xl mx-auto px-6 sm:px-12 lg:px-20 flex items-center justify-between">
+      <div className=" mx-auto px-6 sm:px-12 lg:px-20 flex items-center justify-between w-full">
         <div className="text-3xl text-textBrown  font-heading-barlow font-extralight">
           SS
         </div>
 
         <div className="hidden md:flex space-x-8">
           <Link
-            href="#resume"
+            target="__blank"
+            href="https://drive.google.com/file/d/1g330A4rTyNuhd8LNH9bbkdy-i4Cy3rHM/view?usp=sharing"
             className="text-textBrown text-[17px] font-light hover:font-medium duration-300 font-subtext-mont"
           >
             Resume
           </Link>
           <Link
             href="#university"
-            className="text-textBrown [17px] font-light hover:font-medium duration-300 font-subtext-mont "
+            className="text-bgPeach [17px] font-light hover:font-medium duration-300 font-subtext-mont "
           >
             Visit My University Page
           </Link>
@@ -57,14 +58,15 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden mt-4 px-6 sm:px-12">
           <Link
-            href="#resume"
-            className="block text-textBrown text-lg font-medium hover:underline hover:text-orange-500 transition py-2"
+            target="__blank"
+            href="https://drive.google.com/file/d/1g330A4rTyNuhd8LNH9bbkdy-i4Cy3rHM/view?usp=sharing"
+            className="block text-textBrown text-lg font-medium transition py-2"
           >
             Resume
           </Link>
           <Link
             href="#university"
-            className="block text-textBrown text-lg font-medium hover:underline hover:text-orange-500 transition py-2"
+            className="block text-bgPeach text-lg font-medium  py-2"
           >
             Visit My University Page
           </Link>
