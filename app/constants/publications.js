@@ -1,5 +1,5 @@
 export const mainPublication = {
-    title: <div>Goli,S., Singh, S. (2024). (2020). Are we measuring son preference correctly? <span className="italic">
+    title: <div>Goli,S., Singh, S. (2024).  Are we measuring son preference correctly? <span className="italic">
     Economic and Political Weekly,
     </span> 59(7).</div>,
     link: "https://www.epw.in/journal/2024/7/commentary/are-we-measuring-son-preference-correctly.html",

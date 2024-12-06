@@ -13,7 +13,7 @@ const PHD = () => {
           Research
         </p>
       </div>
-      <div className="w-[90%] mt-20 mb-6 text-xl font-subtext-mont italic">
+      <div className="w-[90%] mt-20 mb-6 text-xl font-subtext-mont italic text-justify">
         My research interests revolve around how family and households, as the
         demographic units of social and economic decision making, influence the
         levels of inequality and continued prevalence of gendered hierarchies in
@@ -36,7 +36,7 @@ const PHD = () => {
           <div
             className={`transition-all duration-500 ease-in-out overflow-hidden`}
             style={{
-              maxHeight: visible ? "1000px" : "200px",
+              maxHeight: visible ? "1500px" : "200px",
               opacity: visible ? 1 : 0.5,
             }}
           >

@@ -3,7 +3,7 @@ import { aboutMe } from "../constants/about";
 
 const AboutMe = () => {
   return (
-    <div className="pb-20 w-[90%]">
+    <div className="pb-20 md:w-[90%]">
       <div className=" p-4 flex flex-col lg:flex-row justify-center items-stretch">
         <div className="px-8 mt-16 w-full lg:w-[45%] flex justify-center items-start lg:items-end flex-col pr-8 h-full">
           <p className="text-xl  mt-5 font-extralight font-subtext-mont text-black"></p>
