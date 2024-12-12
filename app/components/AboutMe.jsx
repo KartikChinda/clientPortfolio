@@ -14,7 +14,7 @@ const AboutMe = () => {
         <div className="w-full lg:w-[60%] px-8 lg:px-20">
           <div className="mt-10 text-lg font-base leading-8  text-textBrown font-subtext-mont">
             {aboutMe.map((sentence) => {
-              return <div className="py-2">{sentence}</div>;
+              return <div>{sentence}</div>;
             })}
           </div>
         </div>

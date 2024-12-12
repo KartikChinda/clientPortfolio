@@ -31,9 +31,3 @@ html {
 .bento-cell {
   @apply flex justify-center items-center rounded-3xl  font-subtext-mont;
 }
-
-@layer utilities {
-  .text-stroke {
-    -webkit-text-stroke: 2px black;
-  }
-}
